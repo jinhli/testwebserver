@@ -1,4 +1,5 @@
-FROM registry.redhat.io/ubi8/ubi
+#FROM registry.redhat.io/ubi8/ubi
+FROM registry.access.redhat.com/ubi7
 
 LABEL name="testwebserver" \
       vendor="Example Inc" \
