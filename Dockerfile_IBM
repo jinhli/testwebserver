@@ -20,6 +20,7 @@ LABEL name="Watson Machine Learning Accelerator MSD" \
       summary="WML-A MSD"
 
 # TODO: Include a license and place it in the /licenses directory.
+COPY licenses /licenses
 
 ENV REDHARE_IS_K8S=ON \
     RELEASE_BUILD=$release_build \
