@@ -1,5 +1,7 @@
 #FROM registry.redhat.io/ubi8/ubi
-FROM registry.access.redhat.com/ubi7
+ARG RHEL_VERSION=7
+FROM registry.access.redhat.com/ubi${RHEL_VERSION}/ubi
+#FROM registry.access.redhat.com/ubi7
 
 LABEL name="testwebserver" \
       vendor="Example Inc" \
